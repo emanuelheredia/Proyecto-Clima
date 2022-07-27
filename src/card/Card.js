@@ -47,7 +47,7 @@ const Card = (cityData) => {
 						></img>
 					) : null}
 				</div>
-				<div className="d-flex flex-column align-items-start justify-content-between py-3">
+				<div className="d-flex flex-column align-items-start justify-content-between py-4">
 					<h4>
 						Temperatura actual:{" "}
 						{cityData.cityData.main
@@ -84,7 +84,7 @@ const Card = (cityData) => {
 					</h4>
 				</div>
 			</div>
-			<h4>Ultima actualización : {fecha} hs</h4>
+			<h5 className="pt-3">Ultima actualización : {fecha} hs</h5>
 		</div>
 	);
 };
